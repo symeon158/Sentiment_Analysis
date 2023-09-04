@@ -1,0 +1,22 @@
+CREATE DATABASE IF NOT EXISTS sentiment_analysis_db;
+USE sentiment_analysis_db;
+
+CREATE TABLE sentiment_data (
+  user_account VARCHAR(255),
+  followers INT,
+  tweets INT,
+  retweets INT,
+  text VARCHAR(255),
+  date DATE,
+  location VARCHAR(255),
+  hashtags VARCHAR(255),
+  sentiment VARCHAR(255),
+  category VARCHAR(255)
+);
+
+LOAD DATA LOCAL INFILE '/path/to/Sentiment_Data_Analysis.csv'
+INTO TABLE tweet_sentiments
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS;
