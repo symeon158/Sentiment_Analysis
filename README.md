@@ -2,6 +2,7 @@
 Sentiment Analysis using Twitter API &amp; Python for Data Analysis Tools(Python, Power BI, Excel)
 
 Sentiment analysis is the process of analyzing text data to determine the emotions, attitudes, and opinions expressed in it. It is widely used in various fields such as marketing, customer service, and politics. In this project, we aim to perform sentiment analysis on a dataset of tweets for Data Analysis Tools such as Python, Power BI and Excel. 
+
 Data Collection: Twitter API to collect tweets related to our topic of interest.
 
 Data Cleaning: Regular Expressions to clean the tweets from URLs, mentions,retweets, remove irrelevant or duplicate tweets.
