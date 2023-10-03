@@ -48,6 +48,8 @@ Utilized data visualization libraries, Matplotlib and Seaborn, to create:
 
 ## Conclusions
 
-[Your concluding remarks, reflections, and potential future directions for this project.]
+Our analysis revealed some interesting insights. We found that the majority of tweets were neutral and positive in sentiment, while a smaller proportion were negative. We also found that sentiment varied across different categories, with some categories having a higher proportion of tweets than the others. Specifically, Power BI is first with a percentage of 68.7%, second is Excel with a percentage of 23.2% and last is Python with a percentage of 8.1%.
+The study also found that the tweet frequency varied throughout the period, with some days having more tweets than others. This could be due to various factors such as new releases, trending topics, or events related to the categories. The study has several limitations, including the small sample size and the reliance on Twitter data, which may not be representative of the general population. Future studies could use a larger sample size and explore other sources of data to validate the findings. Overall, our sentiment analysis of tweets provided valuable insights into the emotions, attitudes, and opinions expressed in tweets related to our topic of interest.
+
 
 
