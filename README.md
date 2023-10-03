@@ -1,14 +1,53 @@
-# Sentiment_Analysis
-Sentiment Analysis using Twitter API &amp; Python for Data Analysis Tools(Python, Power BI, Excel)
+# Sentiment Analysis on Data Analysis Tools using Twitter API & Python
 
-Sentiment analysis is the process of analyzing text data to determine the emotions, attitudes, and opinions expressed in it. It is widely used in various fields such as marketing, customer service, and politics. In this project, we aim to perform sentiment analysis on a dataset of tweets for Data Analysis Tools such as Python, Power BI and Excel. 
+## Project Overview
 
-Data Collection: Twitter API to collect tweets related to our topic of interest.
+This project encompasses the analysis of sentiments expressed in tweets concerning various Data Analysis Tools, namely Python, Power BI, and Excel, using the Twitter API and Python for data processing and analysis.
 
-Data Cleaning: Regular Expressions to clean the tweets from URLs, mentions,retweets, remove irrelevant or duplicate tweets.
+## Table of Contents
 
-Sentiment Analysis: TextBlob library for sentiment analysis. TextBlob is a Python library that provides a simple API for natural language processing tasks, including sentiment analysis. We performed sentiment analysis on the cleaned data and categorized the tweets as positive, negative, or neutral.
+- [Introduction](#introduction)
+- [Data Collection](#data-collection)
+- [Data Cleaning](#data-cleaning)
+- [Sentiment Analysis](#sentiment-analysis)
+- [Data Storage](#data-storage)
+- [Data Visualization](#data-visualization)
+- [Conclusions](#conclusions)
 
-Storing the data in Database.
+## Introduction
 
-Data Visualization: Matplotlib and Seaborn to create bar charts and time series plots to visualize the distribution of sentiments over time and across different categories.
+Sentiment analysis, a pivotal aspect of text analysis, facilitates the deciphering of emotions, attitudes, and opinions embedded in textual data. Applied across diverse domains like marketing and politics, this project specifically delves into analyzing sentiments towards data analysis tools: Python, Power BI, and Excel, encapsulated in a collection of tweets.
+
+## Data Collection
+
+Utilizing the Twitter API, tweets pertinent to the data analysis tools of interest were amassed, forming the foundational dataset for our sentiment analysis journey.
+
+## Data Cleaning
+
+Engaged in a meticulous data cleaning process, employing Regular Expressions to purify the tweets by:
+- Eradicating URLs
+- Omitting mentions and retweets
+- Removing irrelevant or duplicate entries
+
+## Sentiment Analysis
+
+Leveraged the TextBlob library, a simplistic API for natural language processing in Python, to perform sentiment analysis on the cleaned data. The sentiments were categorized as:
+- Positive
+- Negative
+- Neutral
+
+## Data Storage
+
+Enacted procedures for systematically storing the analyzed data into a database, ensuring optimal organization and retrieval functionality for future analysis and visualization.
+
+## Data Visualization
+
+Utilized data visualization libraries, Matplotlib and Seaborn, to create:
+- Bar charts reflecting sentiment distributions
+- Time-series plots elucidating sentiment evolution over time and across different categories.
+
+## Conclusions
+
+[Your concluding remarks, reflections, and potential future directions for this project.]
+
+
